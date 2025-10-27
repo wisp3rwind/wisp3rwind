@@ -4,7 +4,8 @@ My name is Benedikt, I have a background in theoretical physics, and a strong
 interest in software development.
 I enjoy tinkering with open-source software and personal projects, either to
 scratch an itch of mine, or to learn a new language or technology.
-Here, you can find a few examples:
+Here, you can find a few examples (the links will typically take you to an overview
+of my contributions):
 <!-- These projects represent my skills at the time they were created, ... -->
 <!-- Various states of completion -->
 
@@ -17,6 +18,7 @@ Here, you can find a few examples:
 
 - As a Fedora/GNOME user, I sometimes help investigate issues or submit the
   occasional bug fix to the [GNOME ecosystem](https://gitlab.gnome.org/users/wisperwind/activity).
+  <!-- Could also mention fdo gitlab (currently very few contribs, though) https://gitlab.freedesktop.org/users/wisperwind/activity -->
   <!-- Skills: C, Valgrind, ... -->
 
 - Given my academic background, I've been exposed to LaTeX a lot.
@@ -53,6 +55,11 @@ Here, you can find a few examples:
   <!-- - TODO: mbd? -->
   <!-- - TODO: fsclone? -->
 
+- At some point, I contributed a few small additions to
+  [DuckDB](https://github.com/duckdb/duckdb/issues?q=is%3Apr%20author%3Awisp3rwind),
+  extending the Python API and improving Parquet compression support.
+  <!-- Skills: C++, Python -->
+
 - With a few project ideas in mind, I've recently been diving a bit into
   embedded Rust for the ESP32.
   In a bout of over-engineering, I've made a few contributions to the RMT driver in
@@ -77,7 +84,7 @@ Languages & tools I've worked with, roughly sorted from _proficient in_ to _touc
 Tech
 
 - Python (duckdb, Jupyter, matplotlib, mypy, numba, numpy, pandas, poetry, polars, pytest, ruff, scipy, sympy, typing, uv, ...)
-- Rust (cargo, tokio, ...)
+- Rust (cargo, tokio, esp-hal, ...)
 - Mathematica
 - Typst
 - LaTeX
@@ -85,9 +92,8 @@ Tech
 - Fortran
 - C
 - C++
+- assembly (mostly reading, not writing any significant amount; RV32, ARM, AVR)
 - lua
-- ARM assembly
-- AVR assembly
 - Parquet
 - arrow
 - SQLite
@@ -97,6 +103,7 @@ Tools
 
 - Git
 - linux CLI tooling ({ba,fi}sh, grep/ag/rg, make, sed, ...)
+- Ghidra
 - Github actions
 - Valgrind
 - flamegraphs
